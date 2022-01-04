@@ -1,4 +1,7 @@
 import { useReducer } from 'react'
+//https://www.youtube.com/watch?v=LlvBzyy-558&t=1200s
+//practice3: useReducer
+
 //a: reducer
 const reducer = (state, action) => {
     switch (action.type) {
