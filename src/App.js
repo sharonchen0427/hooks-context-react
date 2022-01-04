@@ -4,6 +4,7 @@ import A from './components/5_context'
 import UseStatesDemo from './components/11_youtube_hooks'
 import InputDemo from './components/11_youtube_hooks_2'
 import ReducerDemo from './components/11_youtube_hooks_3'
+import UseStateCountDemo from './components/11_youtube_hooks_3_prev'
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,8 @@ export default class App extends Component {
         <UseStatesDemo />
         <h2>InputDemo</h2>
         <InputDemo />
+        <h2>UseStateCountDemo</h2>
+        <UseStateCountDemo />
         <h2>ReducerDemo</h2>
         <ReducerDemo />
       </div>
