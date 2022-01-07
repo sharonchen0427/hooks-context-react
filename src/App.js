@@ -5,11 +5,23 @@ import UseStatesDemo from './components/11_youtube_hooks'
 import InputDemo from './components/11_youtube_hooks_2'
 import ReducerDemo from './components/11_youtube_hooks_3'
 import UseStateCountDemo from './components/11_youtube_hooks_3_prev'
-
+import StreamDemo from './components/12_stream'
+import Page from './components/13_gunzip'
+import UnGzipDemo from './components/14_pako_ungzip'
 export default class App extends Component {
   render() {
     return (
       <div>
+        <h2>
+        UnGzipDemo
+        </h2>
+        <UnGzipDemo />
+        <h2>
+        Page
+        </h2>
+        <Page />
+        <h2>StreamDemo</h2>
+        <StreamDemo />
         <h2>*setState using class comp</h2>
         <Demo />
         <A />
