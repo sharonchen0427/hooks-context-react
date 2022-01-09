@@ -1,6 +1,6 @@
 import React, { Component,useContext } from 'react'
 import {UserContext} from '../../contexts/UserContext'
-
+import C from '../C'
 //create context obj
 // const MyContext=React.createContext()
 
@@ -57,24 +57,24 @@ class B extends Component {
 //     }
 // }
 
-const C=()=>{
-    // render() {
-        //const {username,age}=this.context
-        const value = useContext(UserContext)
-        return (
-            <div>
-                <h3>i am C</h3>
-                <h4>my username i get from A is {value.username}, my age i get from A is {value.age}
-                {/* <UserContext.Consumer> */}
-                    {
-                        // value=>{
-                        //     return ` ${value.username}, my age i get from A is ${value.age}`
-                        // }
-                        value=>` ${value.username}, my age i get from A is ${value.age}`
-                    }
-                {/* </UserContext.Consumer> */}
-                </h4>
-            </div>
-        )
-    // }
-}
+// const C=()=>{
+//     // render() {
+//         //const {username,age}=this.context
+//         const value = useContext(UserContext)
+//         return (
+//             <div>
+//                 <h3>i am C</h3>
+//                 <h4>my username i get from A is {value.username}, my age i get from A is {value.age}
+//                 {/* <UserContext.Consumer> */}
+//                     {
+//                         // value=>{
+//                         //     return ` ${value.username}, my age i get from A is ${value.age}`
+//                         // }
+//                         value=>` ${value.username}, my age i get from A is ${value.age}`
+//                     }
+//                 {/* </UserContext.Consumer> */}
+//                 </h4>
+//             </div>
+//         )
+//     // }
+// }

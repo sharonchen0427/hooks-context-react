@@ -9,7 +9,8 @@ export default function UnGzipDemo() {
     console.log("->Pako 压缩data:", data);
     const decompressedData = pako.ungzip(data, { to: "string" })
     console.log("decompressedData", decompressedData)
-    download(decompressedData,"log_123.log","application/text")
+    //temp comment out
+    //download(decompressedData,"log_123.log","application/text")
     //download(data, strFileName, strMimeType);
     // console.log("->Pako 解压压缩后的data:", pako.ungzip(data, {to: "string"}));//d
     //https://nodeca.github.io/pako/#ungzip
